@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+/* Header Section */
+.header {
+    background-image: url('b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.header .content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navmenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navmenu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navmenu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    top: 0;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.nav-menu-btn {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 2rem;
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    top: 100%;
+}
+
+/* Services Section */
+#services .service {
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#services .service ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#services .service .item {
+    margin: 20px;
+    text-align: center;
+}
+
+#services .service .icon img {
+    width: 100px;
+    height: 100px;
+}
+
+/* About Section */
+#about .abt {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Gallery Section */
+#gallery .gallery {
+    text-align: center;
+}
+
+#gallery .galleryimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery .galleryimg .img1 {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+#contact .contact {
+    text-align: center;
+}
+
+#contact .info {
+    margin: 20px 0;
+}
+
+#contact .info h3 {
+    margin-bottom: 10px;
+}
+
+#contact .info p {
+    margin: 0;
+}
